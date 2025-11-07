@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+#nav1{
+    background-color: rgb(228, 224, 224);
+    width: 100%;
+    height: 8vh;
+    align-content: center;
+}
+.sty-nv1-sty-lks{
+    color: rgba(66, 64, 64, 0.882);
+    text-decoration: none;
+    align-items: center;
+    padding-left: 4%;
+    font-weight: bolder;
+}
+#nav2{
+    width: 100%;
+    height: 16vh;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    border-bottom: 2px rgb(232, 220, 220) solid;
+   
+}
+.nav2-lks-sty{
+     color: rgba(136, 130, 130, 0.828);
+     padding-left: 2%;
+     text-decoration: none;
+     font-weight: 600;
+
+}
+#sty-nav-src-bar{
+    margin-left: 10%;
+    width: 26%;
+    height: 62%;
+    background-color: rgba(200, 189, 189, 0.259);
+    border: transparent;
+    border-radius: 8px;
+    padding-left: 1.4%;
+}
+.sty-cmm-ppt-bttns{
+    margin-left: 1%;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+#sty-unq-ppt1{
+    background-image: url(pdt-imgs/Screenshot\ \(379\).png);
+    background-size: cover;
+}
+#sty-unq-ppt2{
+    background-image: url(pdt-imgs/Screenshot\ \(379\)-2.png);
+    background-size: cover;
+}
+#page-tabs-sty{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav3-lks-sty{
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgba(64, 62, 62, 0.632);
+    font-weight: 700;
+    margin-left: 3.4%;
+   
+}
+@media (max-width:900px) {
+    #nav1{display: none;}
+    .nav2-lks-sty{
+        display: none;
+    }
+    #nav2{
+        background-color: yellow;
+        color: black;
+    }
+    #sty-logo{
+        width: 22%;
+    }
+    #sty-nav-src-bar{
+        width: 40%;
+        height: 62%;
+        font-size: 62%;
+        color: grey;
+        background-color: white;
+    }
+}
+#otr-sty-grd{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;
+    height: 60vh;
+}
+.sty-inrr-grd-sty{
+    display: inline-block;
+    background-color: black;
+    width: 22%;
+    height: 100%;
+}
+#grd-img-1{
+    background-image: url(pdt-imgs/images-bg-bnnr-1.jpeg                                                                            );
+    background-size: cover;
+}
+#grd-img-2{
+    background-image: url(pdt-imgs/smiling-young-brunette-woman-dress-holding-money-dollars-posing-with-shopping-bags.jpg);
+    background-size: cover;
+}
+#grd-img-3{
+    background-image: url(pdt-imgs/bgg-bnnr-img3.jpg);
+    background-size: cover;
+}
+#sty-flx-ctr{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    width: 100%;
+    height: 108vh;
+    justify-items: center;
+    align-items: center;   
+} 
+.cmn-sty-gd-dvs{
+    width: 200px;
+    height: 250px;
+    background-color: rgba(217, 217, 211, 0.317);
+    border-radius: 12px; 
+    border: solid rgb(220, 213, 213) 2px;      
+}
+#unq-sty1-grd{
+    background-image: url(pdt-imgs/men-hoodie.jpeg);
+    background-size: cover;
+}
+#unq-sty2-grd{
+    background-image: url(pdt-imgs/men-printed-img.jpeg);
+    background-size: cover;
+}
+
+#unq-sty3-grd{
+    background-image: url(pdt-imgs/men\ full\ sleeve\ t\ shirt\ img.jpeg);
+    background-size: cover;
+}
+
+#unq-sty4-grd{
+    background-image: url(pdt-imgs/men-joggers-img.jpg);
+    background-size: cover;
+}
+
+#unq-sty5-grd{
+    background-image: url(pdt-imgs/men-pajamas.jpg);
+    background-size: cover;
+}
+
+#unq-sty6-grd{
+    background-image: url(pdt-imgs/men-shorts-img.jpeg);
+    background-size: cover;
+}
+
+#unq-sty7-grd{
+    background-image: url(pdt-imgs/men-full\ sleeve\ shirt.png);
+    background-size: cover;
+}
+
+#unq-sty8-grd{
+    background-image: url(pdt-imgs/hawai-shirt.jpeg);
+    background-size: cover;
+}
+
+#unq-sty9-grd{
+    background-image: url(pdt-imgs/mobile-case-imh.jpeg);
+    background-size: cover;
+}
+
+#unq-sty10-grd{
+    background-image: url(pdt-imgs/men-kurtas.jpeg);
+    background-size: cover;
+}
+
+#unq-sty11-grd{
+    background-image: url(pdt-imgs/sports\ wear-men.jpeg);
+    background-size: cover;
+}
+
+#unq-sty12-grd{
+    background-image: url(pdt-imgs/men-bagpack.jpeg);
+    background-size: cover;
+}
+
+
+
